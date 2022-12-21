@@ -10,3 +10,206 @@
 	clear: both;
 	display: table;
 }
+
+/* grandezze */
+:root {
+	--g1: 1rem;
+	--g2: 2rem;
+	--g3: 3rem;
+	--g4: 4rem;
+	--g5: 5rem;
+	--g6: 6rem
+}
+/* padding */
+.pad-1 {
+	padding: var(--g1);
+}
+
+.pad-2 {
+	padding: var(--g2);
+}
+
+.pad-3 {
+	padding: var(--g3);
+}
+
+.pad-4 {
+	padding: var(--g4);
+}
+
+.pad-5 {
+	padding: var(--g5);
+}
+
+.pad-6 {
+	padding: var(--g6);
+}
+
+.pad-1-top-bottom {
+	padding: var(--g1) 0;
+}
+
+.pad-2-top-bottom {
+	padding: var(--g2) 0;
+}
+
+.pad-3-top-bottom {
+	padding: var(--g3) 0;
+}
+
+.pad-4-top-bottom {
+	padding: var(--g4) 0;
+}
+
+.pad-5-top-bottom {
+	padding: var(--g5) 0;
+}
+
+.pad-6-top-bottom {
+	padding: var(--g6) 0;
+}
+
+.pad-1-top {
+	padding-top: var(--g1);
+}
+
+.pad-2-top {
+	padding-top: var(--g2);
+}
+
+.pad-3-top {
+	padding-top: var(--g3);
+}
+
+.pad-4-top {
+	padding-top: var(--g4);
+}
+
+.pad-5-top {
+	padding-top: var(--g5);
+}
+
+.pad-6-top {
+	padding-top: var(--g6);
+}
+
+.pad-1-bottom {
+	padding-bottom: var(--g1);
+}
+
+.pad-2-bottom {
+	padding-bottom: var(--g2);
+}
+
+.pad-3-bottom {
+	padding-bottom: var(--g3);
+}
+
+.pad-4-bottom {
+	padding-bottom: var(--g4);
+}
+
+.pad-5-bottom {
+	padding-bottom: var(--g5);
+}
+
+.pad-6-bottom {
+	padding-bottom: var(--g6);
+}
+
+/* margin */
+.margin-1 {
+	margin: var(--g1);
+}
+
+.margin-2 {
+	margin: var(--g2);
+}
+
+.margin-3 {
+	margin: var(--g3);
+}
+
+.margin-4 {
+	margin: var(--g4);
+}
+
+.margin-5 {
+	margin: var(--g5);
+}
+
+.margin-6 {
+	margin: var(--g6);
+}
+
+.margin-1-top-bottom {
+	margin: var(--g1) 0;
+}
+
+.margin-2-top-bottom {
+	margin: var(--g2) 0;
+}
+
+.margin-3-top-bottom {
+	margin: var(--g3) 0;
+}
+
+.margin-4-top-bottom {
+	margin: var(--g4) 0;
+}
+
+.margin-5-top-bottom {
+	margin: var(--g5) 0;
+}
+
+.margin-6-top-bottom {
+	margin: var(--g6) 0;
+}
+
+.margin-1-top {
+	margin-top: var(--g1);
+}
+
+.margin-2-top {
+	margin-top: var(--g2);
+}
+
+.margin-3-top {
+	margin-top: var(--g3);
+}
+
+.margin-4-top {
+	margin-top: var(--g4);
+}
+
+.margin-5-top {
+	margin-top: var(--g5);
+}
+
+.margin-6-top {
+	margin-top: var(--g6);
+}
+
+.margin-1-bottom {
+	margin-bottom: var(--g1);
+}
+
+.margin-2-bottom {
+	margin-bottom: var(--g2);
+}
+
+.margin-3-bottom {
+	margin-bottom: var(--g3);
+}
+
+.margin-4-bottom {
+	margin-bottom: var(--g4);
+}
+
+.margin-5-bottom {
+	margin-bottom: var(--g5);
+}
+
+.margin-6-bottom {
+	margin-bottom: var(--g6);
+}
