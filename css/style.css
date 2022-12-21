@@ -15,3 +15,82 @@ header>.container{
 .logo-menu{
     display: none;
 }
+
+/*section aqua-cards*/
+.aqua-cards .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--g1);
+}
+.aqua-cards h2{
+    color: #0084fd;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* card-big */
+.card-big{
+    background-color: #b5ddff;
+    border-radius: 20px;
+    width: 63%;
+    display: flex;
+    padding: 2rem 2rem 0 2rem;
+}
+.card-big>*{
+    width: 50%;
+}
+.phone{
+    padding: 0 3rem;
+}
+/* card-small */
+.card-small{
+    background-color: #b5ddff;
+    border-radius: 20px;
+    width: 31%;
+    text-align: center;
+}
+.card-small .fa-solid{
+    font-size: var(--g4);
+    color: #0084fd;
+}
+/* section strategic planning */
+.strategic-planning{
+    background-color: #9a95e4;
+}
+.strategic-planning .container-small{
+    display: flex;
+    column-gap: var(--g2);
+}
+/* box small 1 */
+.box-small-1{
+    width: 55%;
+}
+.box-small-1{
+    color: white;
+}
+.box-small-1 h2{
+    font-size: var(--g2);
+    font-weight: bold;
+}
+.box-small-1 p{
+    font-size: 0.9rem;
+}
+/* box small 2 */
+.box-small-2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.white-box{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+.white-box h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.white-box p{
+    font-style: italic;
+}

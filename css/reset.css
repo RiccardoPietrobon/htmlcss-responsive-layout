@@ -21,6 +21,9 @@ picture,
 video {
 	max-width: 100%;
 }
+p{
+	line-height: 25px;
+}
 /* btn e <a> */
 a{
 	text-decoration: none;
@@ -37,7 +40,24 @@ a{
 	border-radius: 20px;
 	padding: 7px 10px ;
 }
-
 .btn-white:hover {
 	color: lightgrey;
+}
+.btn-blue{
+	color: white;
+	background-color: #0084fd;;
+	border-radius: 20px;
+	padding: 10px 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.btn-blue:hover {
+	background-color: #006fd1;
+}
+.btn-arrow{
+	color: black;
+	font-size: var(--g2);
+	padding: var(--g1);
+	background-color: #9a95e4;
+	border-radius: 50%;
 }
