@@ -48,7 +48,21 @@
     .white-card{
         width: 47%;
     }
+
+    /* section about-us */
+    .about-us .container{
+        width: 100%;
+    }
+    /* footer */
+    footer .container{
+        width: 100%;
+        padding: var(--g2);
+    }
 }
+
+
+
+
 /* smartphone */
 @media screen and (max-width: 480px) {
     /* header assume lo stesso comportamento */
@@ -67,6 +81,7 @@
     /* section expert partners */
     .expert-partners .container{
         width: 100%;
+        padding: var(--g1);
     }
     .user-card{
         flex-direction: column;
@@ -75,6 +90,11 @@
         width: 100%;
         text-align: center;
     }
+    .user-img img {
+        width: 40vw;
+        object-fit: cover;
+        border-radius: 50%;
+    }
     .user-description {
         width: 100%;
         text-align: center;
@@ -82,5 +102,17 @@
     /* section benefit */
     .white-card {
         width: 100%;
+    }
+
+    /* section about-us */
+    .about-us .container {
+        flex-direction: column;    
+    }
+    .us-text {
+        width: 100%;
+    }
+    .us-user {
+        width: 100%;
+        text-align: left;
     }
 }

@@ -201,4 +201,45 @@ header>.container{
     top: 10px;
     right: 10px;
 }
-/*  */
+
+/* footer */
+/* get-started */
+.get-started{
+    background-color: #9a95e4;
+}
+.get-started .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--g2);
+    color: white;
+}
+.get-started h4{
+    color: lightgray;
+}
+.get-started h2{
+    font-weight: bold;
+    font-size: var(--g2);
+}
+.get-started h1{
+    color: #fdc15f;
+    font-weight: bold;
+    font-size: var(--g5);
+}
+.get-started p{
+    text-align: center;
+}
+/* black-section */
+.black-section{
+    background-color: #333333;
+}
+.black-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--g4);
+    color: white;
+}
+.black-section p {
+    text-align: center;
+}
