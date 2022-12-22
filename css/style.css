@@ -124,3 +124,38 @@ header>.container{
 .user-description h4{
     font-weight: bold;
 }
+
+/* section benefits */
+.benefits{
+    background-color: #9a95e4;
+}
+.benefits h1{
+    font-size: var(--g3);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: var(--g2);
+}
+.container-white-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--g2);
+}
+.white-card{
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--g2);
+    width: 31%;
+}
+.white-card span{
+    font-size: var(--g4);
+    color: #9a95e4;
+    font-weight: bold;
+}
+.white-card h3{
+    color: #9a95e4;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

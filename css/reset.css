@@ -61,3 +61,14 @@ a{
 	background-color: #9a95e4;
 	border-radius: 50%;
 }
+.btn-violet{
+	color: white;
+	background-color: #9a95e4;
+	padding: 3px 10px;
+	border-radius: 15px;
+	width: 150px;
+	text-align: center;
+}
+.btn-violet:hover{
+	background-color: #817cd3;
+}

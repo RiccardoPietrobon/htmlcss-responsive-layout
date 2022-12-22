@@ -35,9 +35,18 @@
     .box-small-2{
         width: 100%;
     }
+
     /* section expert partners */
     .expert-partners .container{
         width: 100%;
+    }
+
+    /* section benefits */
+    .benefits .container{
+        width: 100%;
+    }
+    .white-card{
+        width: 47%;
     }
 }
 /* smartphone */
@@ -69,5 +78,9 @@
     .user-description {
         width: 100%;
         text-align: center;
+    }
+    /* section benefit */
+    .white-card {
+        width: 100%;
     }
 }
