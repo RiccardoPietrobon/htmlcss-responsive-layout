@@ -17,36 +17,51 @@ header>.container{
 }
 
 /*section aqua-cards*/
-.aqua-cards .container{
+.row{
     display: flex;
     flex-wrap: wrap;
-    gap: var(--g1);
+    margin-left: -15px;
+    margin-right: -15px;
 }
 .aqua-cards h2{
     color: #0084fd;
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+.card-container{
+    padding: 15px;
+    width: calc(100% / 3);
+    display: flex;
+}
+.card-container:first-child {
+    width: calc(100% / 3 *2);
+}
 /* card-big */
 .card-big{
     background-color: #b5ddff;
     border-radius: 20px;
-    width: 63%;
     display: flex;
-    padding: 2rem 2rem 0 2rem;
+    padding: 15px;
 }
 .card-big>*{
     width: 50%;
 }
 .phone{
-    padding: 0 3rem;
+    padding: 0 var(--g4);
+    position: relative;
+}
+.phone img{
+    max-width: 50%;
+    position: absolute;
+    bottom: 0;
 }
 /* card-small */
 .card-small{
     background-color: #b5ddff;
     border-radius: 20px;
-    width: 31%;
     text-align: center;
+    padding: 15px;
 }
 .card-small .fa-solid{
     font-size: var(--g4);

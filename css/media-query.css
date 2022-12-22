@@ -24,6 +24,13 @@
     .card-big>*{
         width: 100%;
     }
+    .phone{
+        padding: 0;
+    }
+    .phone img{
+        position: relative;
+        min-width: 100%;
+    }
     /* section strategic planning */
     .strategic-planning .container-small {
         display: flex;
@@ -69,9 +76,15 @@
     /* section aqua-cards */
     .aqua-cards .container {
         width: 100%;
-        display: flex;
+    }
+    .row{
         flex-direction: column;
-        gap: var(--g1);
+    }
+    .card-container{
+        width: 100%;
+    }
+    .card-container:first-child {
+        width: 100%;
     }
     .card-big,
     .card-small{
@@ -115,4 +128,5 @@
         width: 100%;
         text-align: left;
     }
+    /* footer assume lo stesso comportamento */
 }
