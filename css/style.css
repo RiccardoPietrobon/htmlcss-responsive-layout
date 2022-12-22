@@ -110,15 +110,14 @@ header>.container{
     color: white;
     border-radius: 25px;
 }
-.user-img{
-    width: 30%;
-    display: flex;
-}
 .user-img img{
+    min-height: 200px;
+    max-width: 200px;
+    object-fit: cover;
     border-radius: 50%;
 }
 .user-description{
-    width: 70%;
+    flex-grow: 1;
     text-align: left;
 }
 .user-description h4{
@@ -159,3 +158,47 @@ header>.container{
     font-size: 1.5rem;
     font-weight: bold;
 }
+/* section about us */
+.about-us .container{
+    display: flex;
+    gap: var(--g4);
+}
+.us-text{
+    display: flex;
+    flex-direction: column;
+    gap: var(--g2);
+    width: 70%;
+}
+.us-text h1{
+    color: #9a95e4;
+    font-size: var(--g4);
+    font-weight: bold;
+}
+.us-text p{
+    line-height: var(--g2);
+    font-size: 1.3rem;
+}
+.us-user{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--g2);
+    position: relative;
+}
+.us-user img{
+    border-radius: 50%;
+}
+.us-user p{
+    color: #9a95e4;
+    font-weight: bold;
+    font-size: var(--g2);
+    line-height: var(--g3);
+}
+#virgoletta{
+    color: #9a95e4;
+    font-size: var(--g4);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+/*  */
