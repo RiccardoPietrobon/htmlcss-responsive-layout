@@ -94,3 +94,33 @@ header>.container{
 .white-box p{
     font-style: italic;
 }
+
+/* section expert partners */
+.expert-partners .container{
+    text-align: center;
+}
+.expert-partners h1{
+    font-size: var(--g3);
+    color: #9a95e4;
+    font-weight: bold;
+}
+.user-card{
+    display: flex;
+    background-color: #9a95e4;
+    color: white;
+    border-radius: 25px;
+}
+.user-img{
+    width: 30%;
+    display: flex;
+}
+.user-img img{
+    border-radius: 50%;
+}
+.user-description{
+    width: 70%;
+    text-align: left;
+}
+.user-description h4{
+    font-weight: bold;
+}

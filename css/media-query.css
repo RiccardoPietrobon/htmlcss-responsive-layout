@@ -35,6 +35,10 @@
     .box-small-2{
         width: 100%;
     }
+    /* section expert partners */
+    .expert-partners .container{
+        width: 100%;
+    }
 }
 /* smartphone */
 @media screen and (max-width: 480px) {
@@ -51,4 +55,19 @@
         width: 100%;
     }
     /* section strategic planning assume lo stesso comportamento*/
+    /* section expert partners */
+    .expert-partners .container{
+        width: 100%;
+    }
+    .user-card{
+        flex-direction: column;
+    }
+    .user-img {
+        width: 100%;
+        text-align: center;
+    }
+    .user-description {
+        width: 100%;
+        text-align: center;
+    }
 }
